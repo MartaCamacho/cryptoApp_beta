@@ -9,7 +9,7 @@ const CoinPriceSection = ({ name, currentPrice, changePerc }) => {
     <View style={styles.priceContainer}>
       <View>
         <Text style={styles.name}>{name}</Text>
-        <Text style={styles.currentPrice}>${currentPrice.usd}</Text>
+        <Text style={styles.currentPrice}>{currentPrice}</Text>
       </View>
       <View
         style={[styles.percContainer, { backgroundColor: percentageColor }]}
