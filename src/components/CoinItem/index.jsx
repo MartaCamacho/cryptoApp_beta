@@ -30,7 +30,7 @@ const CoinItem = ({ marketCoin }) => {
     return marketCap
   }
 
-  const percentageColor = price_change_percentage_24h < 0 ? '#ea3943' : price_change_percentage_24h > 0 ? '#16c784': '#fff'
+  const percentageColor = price_change_percentage_24h < 0 ? '#ea3943' : price_change_percentage_24h > 0 ? '#16c784': '#fff';
 
   return (
     <View style={styles.coinContainer}>
